@@ -1,26 +1,22 @@
-# React + Vite
+# Postal Pincode Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A mini project built with **React (Vite)** that allows users to search for Indian postal codes and fetch details of post offices using the **Postal Pincode API**.
 
-Currently, two official plugins are available:
+## Features
+- Enter a **pincode** to fetch all post offices in that region.
+- Search for a **specific post office** using a dropdown filter.
+- Live deployment on **Vercel**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- React (Vite)
+- JavaScript (ES6+)
+- CSS3
+- Postal Pincode API
 
-How to add loader using library?
+## Demo
+🔗 [Live Project](https://postal-pincode-f4-w2.vercel.app/)
 
-Option 2: Using a Loader Library
-
-Many libraries offer pre-built loaders with various styles and animations. Here's an example using React Spinners:
-
-step1:Install the library:
-Bash:
-npm install react-spinners
-
-step2:Import the desired loader component:
-JavaScript:
-import { DotLoader } from 'react-spinners'; // Example loader
-
-step3:Use the component in your 
-JSX, JavaScript:
-<DotLoader color="#3498db" /> // Customize color and other props
+## How to Run Locally
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Siddhesh-Mali/Post-Office-Finder.git
